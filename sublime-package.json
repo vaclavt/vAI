@@ -2,7 +2,7 @@
     "name": "vAI",
     "description": "AI assistant integration for Sublime Text with support for OpenAI-compatible endpoints",
     "author": "vaclavt",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "homepage": "https://github.com/vaclavt/vAI",
     "readme": "README.md",
     "dependencies": ["requests"],
@@ -23,8 +23,8 @@
         {
             "sublime_text": ">=4000",
             "platforms": ["*"],
-            "version": "1.0.1",
-            "date": "2026-07-17",
+            "version": "1.0.2",
+            "date": "2026-07-18",
             "python_versions": ["3.8"]
         }
     ],
@@ -73,6 +73,7 @@
         "__init__.py",
         "vAI.sublime-commands",
         "vAI.sublime-settings",
+        "Main.sublime-menu",
         ".python-version",
         "dependencies.json",
         "Default.sublime-keymap",

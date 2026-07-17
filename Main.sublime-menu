@@ -1,0 +1,26 @@
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "vAI",
+                        "children": [
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/vAI/vAI.sublime-settings",
+                                    "user_file": "${packages}/User/vAI.sublime-settings",
+                                    "default": "// vAI settings override the defaults in \"vAI.sublime-settings\".\n\n{\n    \"assistants\": []\n}\n"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
