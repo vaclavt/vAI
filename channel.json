@@ -1,0 +1,17 @@
+{
+    "$schema": "sublime://packagecontrol.io/schemas/repository",
+    "schema_version": "4.0.0",
+    "packages": [
+        {
+            "name": "vAI",
+            "details": "https://github.com/vaclavt/vAI",
+            "releases": [
+                {
+                    "sublime_text": ">=4000",
+                    "python_versions": ["3.8"],
+                    "tags": true
+                }
+            ]
+        }
+    ]
+}
