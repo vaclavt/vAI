@@ -1,0 +1,18 @@
+[
+    {
+        "keys": ["ctrl+alt+a"],
+        "command": "vai_select_assistant"
+    },
+    {
+        "keys": ["ctrl+alt+o"],
+        "command": "vai_open_ai_chat"
+    },
+    {
+        "keys": ["ctrl+alt+c"],
+        "command": "vai_clear_chat"
+    },
+    {
+        "keys": ["ctrl+alt+m"],
+        "command": "vai_new_message"
+    }
+]

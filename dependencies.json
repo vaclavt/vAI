@@ -1,0 +1,11 @@
+{
+    "$schema": "sublime://packagecontrol.io/schemas/dependencies",
+
+    "*": {
+        "*": [
+            "idna",
+            "urllib3",
+            "requests"
+        ]
+    }
+}

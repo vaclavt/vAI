@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "vAI: Select Assistant",
+        "command": "vai_select_assistant"
+    },
+    {
+        "caption": "vAI: Open AI Chat Tab",
+        "command": "vai_open_ai_chat"
+    },
+    {
+        "caption": "vAI: Clear AI Chat Tab",
+        "command": "vai_clear_chat"
+    },
+    {
+        "caption": "vAI: New Message",
+        "command": "vai_new_message"
+    }
+]

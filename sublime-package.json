@@ -1,0 +1,106 @@
+{
+    "name": "vAI",
+    "description": "AI assistant integration for Sublime Text with support for OpenAI-compatible endpoints",
+    "author": "vaclavt",
+    "version": "1.0.0",
+    "homepage": "https://gitea.rushwalk.com/vaclavt/vAI",
+    "readme": "README.md",
+    "dependencies": ["requests"],
+    "platforms": ["*"],
+    "sublime_text": ">=4000",
+    "load_order": "50",
+    "python_version": ">=3.8",
+    "keywords": [
+        "ai",
+        "assistant",
+        "code generation",
+        "documentation",
+        "openai",
+        "chat",
+        "code completion"
+    ],
+    "releases": [
+        {
+            "sublime_text": ">=4000",
+            "platforms": ["*"],
+            "version": "1.0.0",
+            "date": "2025-02-20",
+            "python_versions": ["3.8"]
+        }
+    ],
+    "package_metadata": {
+        "description": {
+            "short": "AI assistant integration for Sublime Text",
+            "long": "Integrates AI assistants into Sublime Text with support for OpenAI-compatible endpoints. Features include code assistance, documentation generation, and interactive chat interface.",
+            "features": [
+                "OpenAI-compatible endpoint support",
+                "Interactive chat interface",
+                "Code context awareness",
+                "Syntax highlighting support",
+                "Multi-tab content support",
+                "Configurable assistants",
+                "Split view layout"
+            ]
+        }
+    },
+    "settings": {
+        "path": "vAI.sublime-settings",
+        "schema": {
+            "assistants": {
+                "type": "array",
+                "description": "List of configured AI assistants",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {"type": "string"},
+                        "url": {"type": "string"},
+                        "chat_model": {"type": "string"},
+                        "assistant_role": {"type": "string"},
+                        "temperature": {"type": "number"},
+                        "max_tokens": {"type": "integer"},
+                        "token": {"type": "string", "optional": true},
+                        "timeout": {"type": "integer", "optional": true}
+                    }
+                }
+            }
+        }
+    },
+    "required_files": [
+        "vai_chat_tab.py",
+        "vai_commands.py",
+        "vai_endpoint_handler.py",
+        "vai_event_listeners.py",
+        "__init__.py",
+        "vAI.sublime-commands",
+        "vAI.sublime-settings",
+        ".python-version",
+        "dependencies.json",
+        "Default.sublime-keymap",
+        "README.md"
+    ],
+    "commands": [
+        {
+            "caption": "vAI: Select Assistant",
+            "command": "vai_select_assistant"
+        },
+        {
+            "caption": "vAI: Open AI Chat Tab",
+            "command": "vai_open_ai_chat"
+        },
+        {
+            "caption": "vAI: Clear AI Chat Tab",
+            "command": "vai_clear_chat"
+        },
+        {
+            "caption": "vAI: New Message",
+            "command": "vai_new_message"
+        }
+    ],
+    "bugs": {
+        "url": "https://gitea.rushwalk.com/vaclavt/vAI/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitea.rushwalk.com/vaclavt/vAI"
+    }
+}
