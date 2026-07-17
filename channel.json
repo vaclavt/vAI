@@ -5,6 +5,8 @@
         {
             "name": "vAI",
             "details": "https://github.com/vaclavt/vAI",
+            "description": "AI assistant integration for Sublime Text with support for OpenAI-compatible endpoints",
+            "author": "vaclavt",
             "releases": [
                 {
                     "sublime_text": ">=4000",
