@@ -3,7 +3,7 @@
     "description": "AI assistant integration for Sublime Text with support for OpenAI-compatible endpoints",
     "author": "vaclavt",
     "version": "1.0.0",
-    "homepage": "https://gitea.rushwalk.com/vaclavt/vAI",
+    "homepage": "https://github.com/vaclavt/vAI",
     "readme": "README.md",
     "dependencies": ["requests"],
     "platforms": ["*"],
@@ -97,10 +97,10 @@
         }
     ],
     "bugs": {
-        "url": "https://gitea.rushwalk.com/vaclavt/vAI/issues"
+        "url": "https://github.com/vaclavt/vAI/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://gitea.rushwalk.com/vaclavt/vAI"
+        "url": "https://github.com/vaclavt/vAI"
     }
 }
