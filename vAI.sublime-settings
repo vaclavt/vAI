@@ -6,7 +6,7 @@
             "token": "YOUR_OPENAI_API_TOKEN",
             "chat_model": "gpt-5.6-luna",
             "assistant_role": "You are an expert Python developer. Write clear, correct, and idiomatic Python 3. Prefer simple solutions over clever ones. Preserve existing code style unless asked to refactor. Explain only when requested.",
-            "max_tokens": 65536,
+            "max_tokens": 65536
         },
         {
             "name": "deepseek-coder - General Assistant",
@@ -14,7 +14,7 @@
             "token": "YOUR_DEEPSEEK_API_TOKEN",
             "chat_model": "deepseek-v4-flash",
             "assistant_role": "You are an expert Python programmer. Produce production-quality Python 3 code with correct types, clear names, and minimal complexity. Return code first. Keep explanations brief.",
-            "max_tokens": 65536,
-        },
+            "max_tokens": 65536
+        }
     ]
 }
